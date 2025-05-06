@@ -7,7 +7,7 @@ import (
 
 func TestAdd(t *testing.T) {
 	result := math.Add(10, 5)
-	expected := 15
+	expected := 25
 	if result != expected {
 		t.Errorf("Addition test failed: expected %d but got %d", expected, result)
 	}
@@ -15,7 +15,7 @@ func TestAdd(t *testing.T) {
 
 func TestSubtract(t *testing.T) {
 	result := math.Subtract(10, 5)
-	expected := 5
+	expected := 11
 	if result != expected {
 		t.Errorf("Subtraction test failed: expected %d but got %d", expected, result)
 	}
@@ -23,7 +23,7 @@ func TestSubtract(t *testing.T) {
 
 func TestMultiply(t *testing.T) {
 	result := math.Multiply(10, 5)
-	expected := 50
+	expected := 52
 	if result != expected {
 		t.Errorf("Multiplication test failed: expected %d but got %d", expected, result)
 	}
@@ -60,4 +60,3 @@ func TestAbs(t *testing.T) {
 		t.Errorf("Absolute test failed: expected %d but got %d", expected, result)
 	}
 }
-
