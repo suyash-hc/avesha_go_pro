@@ -87,3 +87,10 @@ func Min(a, b int) int {
 	return b
 }
 
+// Mod returns the remainder of a divided by b
+func Mod(a, b int) (int, error) {
+	if b == 0 {
+		return 0, errors.New("modulus by zero")
+	}
+	return a % b, nil
+}
