@@ -37,11 +37,11 @@ func TestMultiply(t *testing.T) {
 func TestDivide(t *testing.T) {
 
 	tests := []struct {
-		name          string
-		a             int
-		b             int
-		expectedValue int
-		expectedError bool
+		name           string
+		a              int
+		b              int
+		expectedResult int
+		expectedError  bool
 	
 }
 
@@ -58,10 +58,10 @@ func TestPower(t *testing.T) {
 func TestSquareRoot(t *testing.T) {
 
 	tests := []struct {
-		name          string
-		a             int
-		expectedValue int
-		expectedError bool
+		name           string
+		a              int
+		expectedResult int
+		expectedError  bool
 	
 }
 
