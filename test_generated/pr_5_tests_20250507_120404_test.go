@@ -41,7 +41,7 @@ func TestDivide(t *testing.T) {
 		a             int
 		b             int
 		expectedValue int
-		expectedError bool
+		expectedError error
 	
 }
 
@@ -61,7 +61,7 @@ func TestSquareRoot(t *testing.T) {
 		name          string
 		a             int
 		expectedValue int
-		expectedError bool
+		expectedError error
 	
 }
 
@@ -101,7 +101,7 @@ func TestMod(t *testing.T) {
 		a             int
 		b             int
 		expectedValue int
-		expectedError bool
+		expectedError error
 	
 }
 
