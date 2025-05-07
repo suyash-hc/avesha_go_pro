@@ -77,6 +77,7 @@ func TestDivide(t *testing.T) {
 	}{
 		{"positive numbers", 10, 2, 5, false},
 		{"division by zero", 10, 0, 0, true},
+		{"zero divided by number", 0, 5, 0, false},
 	}
 
 	for _, tt := range tests {
